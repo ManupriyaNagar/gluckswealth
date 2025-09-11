@@ -11,7 +11,7 @@ const BondPage = () => {
     <div className="min-h-screen bg-white">
 
       {/* Main Content */}
-      <div className="container mx-auto py-12">
+      <div className="container mx-auto py-12 md:px-0 px-4">
         {/* Hero Section */}
         <div className="mb-12 text-center">
           <h1 className="text-3xl font-bold text-gray-900 mb-6 ">
@@ -110,23 +110,23 @@ const BondPage = () => {
               Frequently Asked Questions (FAQs)
             </h2>
             <div className="space-y-4">
-              <div className="flex flex-row">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Are all bonds the same?</h3>
                 <p className="text-gray-700">No, bonds vary based on the issuer, interest rates, and risk levels.</p>
               </div>
-              <div className="flex flex-row">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">How do interest rates affect bond prices?</h3>
                 <p className="text-gray-700">Bond prices and interest rates have an inverse relationship.</p>
               </div>
-              <div className="flex flex-row">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Can I lose money by investing in bonds?</h3>
                 <p className="text-gray-700">Yes, if the issuer defaults or if interest rates rise significantly.</p>
               </div>
-              <div className="flex flex-row">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">What is the difference between a coupon rate and yield?</h3>
                 <p className="text-gray-700">The coupon rate is the fixed interest rate, while yield considers the bond's current market price.</p>
               </div>
-              <div className="flex flex-row">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Are government bonds risk-free?</h3>
                 <p className="text-gray-700">While government bonds are considered low-risk, there is always a degree of risk involved.</p>
               </div>

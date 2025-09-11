@@ -10,7 +10,7 @@ const NPSPage = () => {
   />
     <div className="min-h-screen bg-white">
       {/* Main Content */}
-      <div className="container mx-auto py-12">
+      <div className="container mx-auto py-12 md:px-0 px-4">
         {/* Hero Section */}
         <div className="mb-12 text-center">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
@@ -104,23 +104,23 @@ const NPSPage = () => {
               Frequently Asked Questions (FAQs)
             </h2>
             <div className="space-y-4">
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Is NPS suitable for self-employed individuals?</h3>
                 <p className="text-gray-700">Yes, NPS is open to both salaried and self-employed individuals.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Can I change my investment allocation in NPS?</h3>
                 <p className="text-gray-700">Yes, NPS subscribers can change their investment allocation twice a year.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">What is the tax treatment of NPS withdrawals?</h3>
                 <p className="text-gray-700">Taxability of NPS withdrawals depends on the annuity option chosen.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Can NRIs invest in NPS?</h3>
                 <p className="text-gray-700">Yes, NRIs can invest in NPS, subject to regulations.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">How do I open an NPS account?</h3>
                 <p className="text-gray-700">NPS accounts can be opened through authorized banks and financial institutions.</p>
               </div>

@@ -10,7 +10,7 @@ const PMSPage = () => {
   />
     <div className="min-h-screen bg-white">
       {/* Main Content */}
-      <div className="container mx-auto py-12">
+      <div className="container mx-auto py-12 md:px-0 px-4">
         {/* Hero Section */}
         <div className="mb-12 text-center">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
@@ -88,23 +88,23 @@ const PMSPage = () => {
               Frequently Asked Questions (FAQs)
             </h2>
             <div className="space-y-4">
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">What is the minimum investment requirement for PMS?</h3>
                 <p className="text-gray-700">The minimum investment requirement varies based on the PMS provider and strategy.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Are PMS returns guaranteed?</h3>
                 <p className="text-gray-700">PMS returns are subject to market fluctuations and are not guaranteed.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Can I customize my portfolio based on my preferences?</h3>
                 <p className="text-gray-700">Yes, PMS offers customization to match your risk profile and preferences.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Are there any tax implications for PMS investments?</h3>
                 <p className="text-gray-700">PMS returns are taxed as capital gains based on the holding period.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">What is the role of a fund manager in PMS?</h3>
                 <p className="text-gray-700">Fund managers make investment decisions, monitor portfolios, and strive to achieve optimal returns.</p>
               </div>

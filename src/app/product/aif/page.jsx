@@ -12,7 +12,7 @@ const AIFPage = () => {
 
 
                 {/* Main Content */}
-                <div className="container mx-auto py-12 ">
+                <div className="container mx-auto py-12 md:px-0 px-4">
                     {/* Hero Section */}
                     <div className="mb-12 text-center">
                         <h1 className="text-3xl font-bold text-gray-900 mb-6">
@@ -101,23 +101,23 @@ const AIFPage = () => {
                                 Frequently Asked Questions (FAQs)
                             </h2>
                             <div className="space-y-4">
-                                <div className="flex flex-row">
+                                <div className="flex md:flex-row flex-col">
                                     <h3 className="font-semibold text-gray-900 mb-2">Are AIFs suitable for beginners? </h3>
                                     <p className="text-gray-700"> AIFs are better suited for experienced investors due to their unique risk profile.</p>
                                 </div>
-                                <div className="flex flex-row">
+                                <div className="flex md:flex-row flex-col">
                                     <h3 className="font-semibold text-gray-900 mb-2">Can AIFs guarantee returns? </h3>
                                     <p className="text-gray-700">No, AIFs involve market-related risks and don't guarantee fixed returns.</p>
                                 </div>
-                                <div className="flex flex-row">
+                                <div className="flex md:flex-row flex-col">
                                     <h3 className="font-semibold text-gray-900 mb-2">What is the minimum investment in AIFs?</h3>
                                     <p className="text-gray-700">Minimum investment varies based on the type of AIF and its terms.</p>
                                 </div>
-                                <div className="flex flex-row">
+                                <div className="flex md:flex-row flex-col">
                                     <h3 className="font-semibold text-gray-900 mb-2">How can one exit an AIF investment?</h3>
                                     <p className="text-gray-700">AIFs typically have a defined exit process based on the fund's strategy.</p>
                                 </div>
-                                <div className="flex flex-row">
+                                <div className="flex md:flex-row flex-col">
                                     <h3 className="font-semibold text-gray-900 mb-2">Can AIFs be held in tax-efficient accounts?</h3>
                                     <p className="text-gray-700">Tax implications vary based on the jurisdiction and AIF type.</p>
                                 </div>

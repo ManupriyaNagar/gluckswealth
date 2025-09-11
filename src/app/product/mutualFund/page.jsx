@@ -12,7 +12,7 @@ const MutualFundPage = () => {
     <div className="min-h-screen bg-white">
 
       {/* Main Content */}
-      <div className="container mx-auto py-12">
+      <div className="container mx-auto py-12 md:px-0 px-4">
         {/* Hero Section */}
         <div className="mb-12 text-center">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
@@ -115,23 +115,23 @@ const MutualFundPage = () => {
               Frequently Asked Questions (FAQs)
             </h2>
             <div className="space-y-4">
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Is SIP suitable for short-term goals?</h3>
                 <p className="text-gray-700">SIP is more beneficial for long-term goals due to the compounding effect.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Can I change my SIP amount later?</h3>
                 <p className="text-gray-700">Yes, you can increase, decrease, or pause your SIP amount as per your convenience.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">What happens if I miss an SIP installment?</h3>
                 <p className="text-gray-700">Missing an installment might impact the compounding effect, but most funds offer a grace period.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Are there any tax benefits to investing in SIP?</h3>
                 <p className="text-gray-700">Some funds offer tax benefits under Section 80C of the Income Tax Act.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Can I invest in multiple SIPs simultaneously?</h3>
                 <p className="text-gray-700">Yes, you can invest in multiple SIPs across different fund categories.</p>
               </div>

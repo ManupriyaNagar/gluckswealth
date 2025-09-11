@@ -12,7 +12,7 @@ const FixedDepositPage = () => {
     
 
       {/* Main Content */}
-      <div className="container mx-auto py-12">
+      <div className="container mx-auto py-12 md:px-0 px-4">
         {/* Hero Section */}
         <div className="mb-12 text-center">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
@@ -92,23 +92,23 @@ const FixedDepositPage = () => {
               Frequently Asked Questions (FAQs)
             </h2>
             <div className="space-y-4">
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Is the interest earned on Fixed Deposits taxable?</h3>
                 <p className="text-gray-700">Yes, the interest earned on Fixed Deposits is taxable, as per your income tax slab.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Can I withdraw my Fixed Deposit prematurely?</h3>
                 <p className="text-gray-700">Most banks allow premature withdrawal with certain penalties and conditions.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Are Fixed Deposits suitable for long-term goals?</h3>
                 <p className="text-gray-700">While FDs provide stability, their returns might not outpace inflation over the long term.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Can I take a loan against my Fixed Deposit?</h3>
                 <p className="text-gray-700">Yes, many banks offer loans against Fixed Deposits at attractive interest rates.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">What happens if the bank faces financial trouble?</h3>
                 <p className="text-gray-700">Deposits up to Rs. 5 lakh are insured by the Deposit Insurance and Credit Guarantee Corporation (DICGC).</p>
               </div>

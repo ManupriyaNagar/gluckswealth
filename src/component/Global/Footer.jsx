@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 border-t border-gray-200 pt-12">
+    <footer className="bg-gray-100 border-t border-gray-200 pt-12 ">
       {/* Top section with columns */}
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-5 gap-8 text-sm text-gray-700">
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-5 gap-8 text-sm text-gray-700 md:text-start text-center justify-center">
         
         {/* Goals */}
         <div>
@@ -16,7 +16,7 @@ export default function Footer() {
             <li>Retirement Plan</li>
             <li>Build Long Term Wealth</li>
           </ul>
-          <div className="mt-4 space-y-3">
+          <div className="mt-4 space-y-3 md:ml-0 ml-10">
             <Image src="/playstore.svg" alt="Google Play" width={140} height={40} />
             <Image src="/app-store.svg" alt="App Store" width={140} height={40} />
           </div>
@@ -83,8 +83,8 @@ export default function Footer() {
 
       {/* Disclaimer Section */}
       <div className="text-center text-gray-600 text-sm mt-8 space-y-4 bg-white">
-        <div className="container mx-auto text-lg pt-10">
-        <p className="mb-10">
+        <div className="container mx-auto text-lg pt-10 md:px-0 px-4">
+        <p className="mb-10 ">
           Mutual fund investments are subject to market risk. Read all
           scheme-related documents carefully before investing. Past performance
           is not an indicator of future returns. The value of your investment

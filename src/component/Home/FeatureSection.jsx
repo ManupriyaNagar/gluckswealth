@@ -44,7 +44,7 @@ export default function FeaturesSection() {
       />
 
       <div className="max-w-7xl mx-auto  relative z-4">
-        <p className="text-gray-700 mb-12 text-lg">
+        <p className="text-gray-700 mb-12 text-lg md:px-0 px-4">
           Investing in your financial future has never been easier. Contact us
           today to schedule a free consultation and see how Glucks Wealth can
           help you achieve your investment goals.

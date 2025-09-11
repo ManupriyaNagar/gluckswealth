@@ -33,7 +33,7 @@ export default function Hero() {
 
   return (
     <>
-      <section className="relative w-full bg-gradient-b from-bg-gray-200 to-gray-50 pt-64 pb-16">
+      <section className="relative w-full bg-gradient-b from-bg-gray-600 to-gray-50 pt-24 pb-16">
         {/* Background image */}
 
 

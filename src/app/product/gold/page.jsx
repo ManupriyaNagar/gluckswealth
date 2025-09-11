@@ -10,7 +10,7 @@ const GoldPage = () => {
       />
     <div className="min-h-screen bg-white">
       {/* Main Content */}
-      <div className="container mx-auto py-12">
+      <div className="container mx-auto py-12 md:px-0 px-4">
         {/* Hero Section */}
         <div className="mb-12 text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-6">
@@ -118,23 +118,23 @@ const GoldPage = () => {
               Frequently Asked Questions (FAQs)
             </h2>
             <div className="space-y-4">
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Is gold a safe investment?</h3>
                 <p className="text-gray-700">Gold is often considered a safe-haven investment during uncertain times.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Can I buy physical gold online?</h3>
                 <p className="text-gray-700">Yes, various reputable dealers offer physical gold for purchase online.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Does gold have industrial uses?</h3>
                 <p className="text-gray-700">Yes, gold is used in electronics, medical devices, and other industries.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">What is the relationship between gold and the economy?</h3>
                 <p className="text-gray-700">Gold can be inversely related to the economy; during economic downturns, its value may rise.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">How do I invest in gold mining stocks?</h3>
                 <p className="text-gray-700">You can invest in gold mining stocks through brokerage accounts.</p>
               </div>

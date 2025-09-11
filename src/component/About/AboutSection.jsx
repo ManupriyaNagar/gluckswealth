@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutSection = () => {
   return (
-    <div className="container mx-auto py-12 space-y-12">
+    <div className="container mx-auto py-12 space-y-12 md:px-0 px-4">
       {/* Our Philosophy */}
       <section>
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Philosophy</h2>

@@ -10,7 +10,7 @@ const P2PLoanPage = () => {
   />
     <div className="min-h-screen bg-white">
       {/* Main Content */}
-      <div className="container mx-auto py-12">
+      <div className="container mx-auto py-12 md:px-0 px-4">
         {/* Hero Section */}
         <div className="mb-12 text-center">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
@@ -91,23 +91,23 @@ const P2PLoanPage = () => {
               Frequently Asked Questions (FAQs)
             </h2>
             <div className="space-y-4">
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">How does the P2P lending process work?</h3>
                 <p className="text-gray-700">P2P lending platforms match borrowers with potential lenders, facilitating the borrowing and lending process.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">What factors affect the interest rates for P2P loans?</h3>
                 <p className="text-gray-700">Interest rates are influenced by borrower creditworthiness, loan amount, and prevailing market rates.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Are P2P loans regulated?</h3>
                 <p className="text-gray-700">P2P lending platforms are subject to regulatory oversight to ensure transparency and protect users.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">What happens if a borrower defaults on a P2P loan?</h3>
                 <p className="text-gray-700">Depending on the platform, default management strategies may vary, potentially affecting lender returns.</p>
               </div>
-              <div className="flex">
+              <div className="flex md:flex-row flex-col">
                 <h3 className="font-semibold text-gray-900 mb-2">Can I invest in P2P loans with a small amount of capital?</h3>
                 <p className="text-gray-700">Many P2P platforms allow investors to start with a relatively small investment, promoting inclusivity.</p>
               </div>

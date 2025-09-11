@@ -9,7 +9,7 @@ const PrivacyPolicyPage = () => {
                 breadcrumb={["Home", "Privacy Policy"]}
             />
     <div className=" bg-white">
-      <div className="container mx-auto py-12 text-gray-500 text-lg space-y-4">
+      <div className="container mx-auto py-12 text-gray-500 text-lg space-y-4 md:px-0 px-4" >
         <p>
         Welcome to our website gluckswealth.com We at Glucks Wealth respect the privacy of everyone who visits this website and are committed to maintaining the privacy and security of the personal information of all visitors to this website. Our policy on the collection and use of personal information and other information is outlined below.</p>
         <p>We collect personal information from our visitors on a voluntary basis. Personal information may include name, title, company, address, phone number, email address, and other relevant data. Questions or comments submitted by visitors may also include personal information.
