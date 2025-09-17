@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 export default function LoginPage() {
-    const [email, setEmail] = useState("");
+    const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
     const [error, setError] = useState("");
@@ -14,23 +14,21 @@ export default function LoginPage() {
         setSuccess("");
 
         try {
+            const formData = new URLSearchParams();
+            formData.append("username", username);
+            formData.append("password", password);
+            formData.append("loginFor", "ARN");
+            formData.append("callbackUrl", "https://www.neptunewealth.co.in");
+
             const res = await fetch("https://wealthelite.in/Login/login/validate-user", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/x-www-form-urlencoded",
                 },
-                body: new URLSearchParams({
-                    username: email,
-                    password: password,
-                    loginFor: "ARN",
-                    callbackUrl: "https://www.neptunewealth.co.in",
-                }),
+                body: formData.toString(),
             });
 
             const text = await res.text();
-
-            // You may want to parse the response and handle accordingly.
-            // Here, we just check for a successful status.
             if (res.ok && text.toLowerCase().includes("success")) {
                 setSuccess("Login successful!");
                 // Redirect or further logic here
@@ -48,15 +46,16 @@ export default function LoginPage() {
                 <h2 className="text-2xl font-bold text-center text-indigo-700 mb-6">Admin Login</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="mb-5">
-                        <label htmlFor="email" className="block mb-2 font-medium text-gray-700">Email</label>
+                        <label htmlFor="username" className="block mb-2 font-medium text-gray-700">Username</label>
                         <input
-                            id="email"
-                            type="email"
-                            value={email}
-                            onChange={e => setEmail(e.target.value)}
+                            id="username"
+                            type="text"
+                            value={username}
+                            onChange={e => setUsername(e.target.value)}
                             required
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 transition"
-                            placeholder="admin@example.com"
+                            placeholder="Enter your User Name"
+                            name="username"
                         />
                     </div>
                     <div className="mb-5 relative">
@@ -68,7 +67,8 @@ export default function LoginPage() {
                             onChange={e => setPassword(e.target.value)}
                             required
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 transition pr-16"
-                            placeholder="Enter your password"
+                            placeholder="******"
+                            name="password"
                         />
                         <button
                             type="button"
