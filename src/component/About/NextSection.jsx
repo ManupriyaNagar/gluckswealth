@@ -25,7 +25,6 @@ const NextSection = () => {
                             build a strong financial foundation.
                         </p>
                     </div>
-
                     {/* Right Image Section */}
                     <div className="relative order-1 lg:order-2">
                         {/* Mobile Layout - Single Column */}

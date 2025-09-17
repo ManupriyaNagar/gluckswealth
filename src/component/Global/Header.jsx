@@ -9,7 +9,7 @@ export default function Header() {
   const [isMobileProductsOpen, setIsMobileProductsOpen] = useState(false);
 
   return (
-    <header className="w-full z-90 px-4 md:px-10">
+    <header className="w-full z-20 px-4 md:px-10">
       <div className="bg-white rounded-md shadow-[0_6px_12px_-2px_rgba(0,0,0,0.15)] z-50 mt-10">
         <div className="container mx-auto w-full flex items-center justify-between px-4 md:px-8 py-4">
           {/* Logo */}
