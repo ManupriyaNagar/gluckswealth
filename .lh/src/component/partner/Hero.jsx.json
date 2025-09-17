@@ -1,0 +1,206 @@
+{
+    "sourceFile": "src/component/partner/Hero.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 47,
+            "patches": [
+                {
+                    "date": 1758096995893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1758097106043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,23 @@\n import React from 'react'\n \n const Hero = () => {\n   return (\n-    <div>Hero</div>\n+    <section>\n+        <div className=' px-4 py-16 text-center flex flex-col-2 items-center justify-center'>\n+\n+\n+<div>\n+\n+</div>\n+<div>\n+\n+</div>\n+\n+\n+\n+        </div>\n+    </section>\n   )\n }\n \n export default Hero\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1758097178918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <section>\n         <div className=' px-4 py-16 text-center flex flex-col-2 items-center justify-center'>\n \n \n-<div>\n+<div className='w-3/5'>\n \n </div>\n <div>\n \n"
+                },
+                {
+                    "date": 1758097190785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,12 @@\n \n <div className='w-3/5'>\n \n </div>\n-<div>\n \n+\n+<div className='w-2/5'>\n+\n </div>\n \n \n \n"
+                },
+                {
+                    "date": 1758097272552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,12 +6,19 @@\n         <div className=' px-4 py-16 text-center flex flex-col-2 items-center justify-center'>\n \n \n <div className='w-3/5'>\n+<div className=''>\n \n </div>\n+<div className=''>\n+    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className='w-full h-full object-cover' />\n \n+</div>\n \n+</div>\n+\n+\n <div className='w-2/5'>\n \n </div>\n \n"
+                },
+                {
+                    "date": 1758097312642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <div className=''>\n \n </div>\n <div className=''>\n-    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className='w-full h-full object-cover' />\n+    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n \n </div>\n \n </div>\n"
+                },
+                {
+                    "date": 1758097334425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <div className=''>\n \n </div>\n <div className=''>\n-    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n+    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className='w-1/2 object-cover' />\n \n </div>\n \n </div>\n"
+                },
+                {
+                    "date": 1758097340248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <div className=''>\n \n </div>\n <div className=''>\n-    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className='w-1/2 object-cover' />\n+    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className='w-1/2 h-1/2 object-cover' />\n \n </div>\n \n </div>\n"
+                },
+                {
+                    "date": 1758097348387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <div className=''>\n \n </div>\n <div className=''>\n-    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className='w-1/2 h-1/2 object-cover' />\n+    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className='w-1/2 h-[100vh] object-cover' />\n \n </div>\n \n </div>\n"
+                },
+                {
+                    "date": 1758097360587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <div className=''>\n \n </div>\n <div className=''>\n-    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className='w-1/2 h-[100vh] object-cover' />\n+    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n \n </div>\n \n </div>\n"
+                },
+                {
+                    "date": 1758097395371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,17 @@\n \n \n <div className='w-3/5'>\n <div className=''>\n-\n+    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n </div>\n <div className=''>\n-    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n \n+\n+Be a part of change in the investment industry\n+\n+Be A Partner For Free\n+\n </div>\n \n </div>\n \n"
+                },
+                {
+                    "date": 1758097431433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,15 +9,14 @@\n <div className='w-3/5'>\n <div className=''>\n     <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n </div>\n-<div className=''>\n \n-\n-Be a part of change in the investment industry\n-\n-Be A Partner For Free\n-\n+<div className='flex flex-col items-center mt-6'>\n+  <h2 className='text-3xl font-bold mb-4 text-gray-800'>Be a part of change in the investment industry</h2>\n+  <button className='mt-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition'>\n+    Be A Partner For Free\n+  </button>\n </div>\n \n </div>\n \n"
+                },
+                {
+                    "date": 1758097440568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <div className=''>\n     <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n </div>\n \n-<div className='flex flex-col items-center mt-6'>\n+<div className='flex  items-center mt-6'>\n   <h2 className='text-3xl font-bold mb-4 text-gray-800'>Be a part of change in the investment industry</h2>\n   <button className='mt-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition'>\n     Be A Partner For Free\n   </button>\n"
+                },
+                {
+                    "date": 1758097448751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <div className=''>\n     <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n </div>\n \n-<div className='flex  items-center mt-6'>\n+<div className='flex flex-row items-center mt-6'>\n   <h2 className='text-3xl font-bold mb-4 text-gray-800'>Be a part of change in the investment industry</h2>\n   <button className='mt-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition'>\n     Be A Partner For Free\n   </button>\n"
+                },
+                {
+                    "date": 1758097458141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <div className=''>\n     <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n </div>\n \n-<div className='flex flex-row items-center mt-6'>\n+<div className='flex items-center mt-6'>\n   <h2 className='text-3xl font-bold mb-4 text-gray-800'>Be a part of change in the investment industry</h2>\n   <button className='mt-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition'>\n     Be A Partner For Free\n   </button>\n"
+                },
+                {
+                    "date": 1758097464301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <section>\n         <div className=' px-4 py-16 text-center flex flex-col-2 items-center justify-center'>\n \n \n-<div className='w-3/5'>\n+<div className='w-3/5 flex'>\n <div className=''>\n     <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n </div>\n \n"
+                },
+                {
+                    "date": 1758097757850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,36 @@\n </div>\n \n \n <div className='w-2/5'>\n+form className='w-full max-w-md bg-white rounded-xl shadow p-6 flex flex-col gap-4 items-center'>\n+    <input\n+      type='text'\n+      name='name'\n+      placeholder='Name'\n+      className='w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400'\n+      required\n+    />\n+    <input\n+      type='email'\n+      name='email'\n+      placeholder='Email'\n+      className='w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400'\n+      required\n+    />\n+    <input\n+      type='tel'\n+      name='mobile'\n+      placeholder='Mobile'\n+      className='w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400'\n+      required\n+      pattern='[0-9]{10}'\n+      maxLength={10}\n+    />\n+    <button type='submit' className='w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition'>\n+      Be A Partner For Free\n+    </button>\n+  </form>\n \n </div>\n \n \n"
+                },
+                {
+                    "date": 1758097773738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n </div>\n \n \n <div className='w-2/5'>\n-form className='w-full max-w-md bg-white rounded-xl shadow p-6 flex flex-col gap-4 items-center'>\n+<form className='w-full max-w-md bg-white rounded-xl shadow p-6 flex flex-col gap-4 items-center'>\n     <input\n       type='text'\n       name='name'\n       placeholder='Name'\n"
+                },
+                {
+                    "date": 1758097873061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <div className=''>\n     <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n </div>\n \n-<div className='flex items-center mt-6'>\n+<div className='flex flex-cols items-center mt-6'>\n   <h2 className='text-3xl font-bold mb-4 text-gray-800'>Be a part of change in the investment industry</h2>\n   <button className='mt-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition'>\n     Be A Partner For Free\n   </button>\n"
+                },
+                {
+                    "date": 1758097886964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <div className=''>\n     <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n </div>\n \n-<div className='flex flex-cols items-center mt-6'>\n+<div className=' flex-cols items-center mt-6'>\n   <h2 className='text-3xl font-bold mb-4 text-gray-800'>Be a part of change in the investment industry</h2>\n   <button className='mt-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition'>\n     Be A Partner For Free\n   </button>\n"
+                },
+                {
+                    "date": 1758098055627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,63 +1,71 @@\n import React from 'react'\n \n const Hero = () => {\n   return (\n-    <section>\n-        <div className=' px-4 py-16 text-center flex flex-col-2 items-center justify-center'>\n+    <section className=\"px-4 py-16 bg-gray-50\">\n+      <div className=\"container mx-auto flex flex-col lg:flex-row items-center justify-between gap-10\">\n+        \n+        {/* Left side: image + text */}\n+        <div className=\"flex flex-col lg:flex-row items-center lg:items-start lg:w-3/5 gap-6\">\n+          \n+          {/* Image */}\n+          <div className=\"w-full lg:w-1/2 flex justify-center\">\n+            <img\n+              src=\"https://nivesh.com/assets/images/person2.webp\"\n+              alt=\"hero\"\n+              className=\"object-cover max-h-[400px] rounded-xl\"\n+            />\n+          </div>\n+          \n+          {/* Text */}\n+          <div className=\"lg:w-1/2 text-center lg:text-left\">\n+            <h2 className=\"text-3xl font-bold mb-4 text-gray-800 leading-snug\">\n+              Be a part of change in the investment industry\n+            </h2>\n+            <button className=\"mt-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition\">\n+              Be A Partner For Free\n+            </button>\n+          </div>\n+        </div>\n+        \n+        {/* Right side: Form */}\n+        <div className=\"lg:w-2/5 w-full\">\n+          <form className=\"w-full bg-white rounded-xl shadow p-6 flex flex-col gap-4\">\n+            <input\n+              type=\"text\"\n+              name=\"name\"\n+              placeholder=\"Name\"\n+              className=\"w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400\"\n+              required\n+            />\n+            <input\n+              type=\"email\"\n+              name=\"email\"\n+              placeholder=\"Email\"\n+              className=\"w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400\"\n+              required\n+            />\n+            <input\n+              type=\"tel\"\n+              name=\"mobile\"\n+              placeholder=\"Mobile\"\n+              className=\"w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400\"\n+              required\n+              pattern=\"[0-9]{10}\"\n+              maxLength={10}\n+            />\n+            <button\n+              type=\"submit\"\n+              className=\"w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition\"\n+            >\n+              Be A Partner For Free\n\\ No newline at end of file\n+            </button>\n+          </form>\n+        </div>\n \n-\n-<div className='w-3/5 flex'>\n-<div className=''>\n-    <img src=\"https://nivesh.com/assets/images/person2.webp\" alt=\"hero\" className=' object-cover' />\n-</div>\n-\n-<div className=' flex-cols items-center mt-6'>\n-  <h2 className='text-3xl font-bold mb-4 text-gray-800'>Be a part of change in the investment industry</h2>\n-  <button className='mt-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition'>\n-    Be A Partner For Free\n-  </button>\n-</div>\n-\n-</div>\n-\n-\n-<div className='w-2/5'>\n-<form className='w-full max-w-md bg-white rounded-xl shadow p-6 flex flex-col gap-4 items-center'>\n-    <input\n-      type='text'\n-      name='name'\n-      placeholder='Name'\n-      className='w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400'\n-      required\n-    />\n-    <input\n-      type='email'\n-      name='email'\n-      placeholder='Email'\n-      className='w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400'\n-      required\n-    />\n-    <input\n-      type='tel'\n-      name='mobile'\n-      placeholder='Mobile'\n-      className='w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400'\n-      required\n-      pattern='[0-9]{10}'\n-      maxLength={10}\n-    />\n-    <button type='submit' className='w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition'>\n-      Be A Partner For Free\n-    </button>\n-  </form>\n-\n-</div>\n-\n-\n-\n-        </div>\n+      </div>\n     </section>\n   )\n }\n \n-export default Hero\n+export default Hero\n"
+                },
+                {
+                    "date": 1758102515263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-          <form className=\"w-full bg-white rounded-xl shadow p-6 flex flex-col gap-4\">\n+          {/* <form className=\"w-full bg-white rounded-xl shadow p-6 flex flex-col gap-4\">\n             <input\n               type=\"text\"\n               name=\"name\"\n               placeholder=\"Name\"\n@@ -59,13 +59,15 @@\n               className=\"w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition\"\n             >\n               Be A Partner For Free\n             </button>\n-          </form>\n+          </form> */}\n+\n+          <img src=\"./mobile.png\" alt=\"partner-hero\" className=\"rounded-xl shadow-lg\" />\n         </div>\n \n       </div>\n     </section>\n   )\n\\ No newline at end of file\n }\n \n-export default Hero\n+export default Hero\n"
+                },
+                {
+                    "date": 1758102522374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,13 +61,13 @@\n               Be A Partner For Free\n             </button>\n           </form> */}\n \n-          <img src=\"./mobile.png\" alt=\"partner-hero\" className=\"rounded-xl shadow-lg\" />\n+          <img src=\"/mobile.png\" alt=\"partner-hero\" className=\"rounded-xl shadow-lg\" />\n         </div>\n \n       </div>\n     </section>\n   )\n }\n \n\\ No newline at end of file\n-export default Hero\n+export default Hero\n"
+                },
+                {
+                    "date": 1758102532333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,13 +61,13 @@\n               Be A Partner For Free\n             </button>\n           </form> */}\n \n-          <img src=\"/mobile.png\" alt=\"partner-hero\" className=\"rounded-xl shadow-lg\" />\n+          <img src=\"/mobile.png\" alt=\"partner-hero\" className=\"rounded-xl \" />\n         </div>\n \n       </div>\n     </section>\n   )\n }\n \n\\ No newline at end of file\n-export default Hero\n+export default Hero\n"
+                },
+                {
+                    "date": 1758102633309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-          {/* <form className=\"w-full bg-white rounded-xl shadow p-6 flex flex-col gap-4\">\n+          <form className=\"w-full bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n               placeholder=\"Name\"\n@@ -59,9 +59,9 @@\n               className=\"w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow transition\"\n             >\n               Be A Partner For Free\n             </button>\n-          </form> */}\n+          </form>\n \n           <img src=\"/mobile.png\" alt=\"partner-hero\" className=\"rounded-xl \" />\n         </div>\n \n@@ -69,5 +69,5 @@\n     </section>\n   )\n }\n \n-export default Hero\n\\ No newline at end of file\n+export default Hero\n"
+                },
+                {
+                    "date": 1758102648382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-          <form className=\"w-full bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n+          <form className=\"w-full absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n               placeholder=\"Name\"\n"
+                },
+                {
+                    "date": 1758102655504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-          <form className=\"w-full absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n+          <form className=\" absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n               placeholder=\"Name\"\n"
+                },
+                {
+                    "date": 1758102736060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-          <form className=\" absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n+          <form className=\"h-full absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n               placeholder=\"Name\"\n"
+                },
+                {
+                    "date": 1758102746418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-          <form className=\"h-full absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n+          <form className=\"h-96 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n               placeholder=\"Name\"\n"
+                },
+                {
+                    "date": 1758102796980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n+        <div className=' ml-20'>\n           <form className=\"h-96 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n@@ -60,9 +61,9 @@\n             >\n               Be A Partner For Free\n             </button>\n           </form>\n-\n+</div>\n           <img src=\"/mobile.png\" alt=\"partner-hero\" className=\"rounded-xl \" />\n         </div>\n \n       </div>\n"
+                },
+                {
+                    "date": 1758102804332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-        <div className=' ml-20'>\n+        <div className=' ml-3'>\n           <form className=\"h-96 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n"
+                },
+                {
+                    "date": 1758102813498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-        <div className=' ml-3'>\n+        <div className=' ml-6'>\n           <form className=\"h-96 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n"
+                },
+                {
+                    "date": 1758102842122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-        <div className=' ml-6'>\n+        <div className=' ml-6 mt-7'>\n           <form className=\"h-96 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n"
+                },
+                {
+                    "date": 1758102852413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-        <div className=' ml-6 mt-7'>\n+        <div className=' ml-6 mt-24'>\n           <form className=\"h-96 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n"
+                },
+                {
+                    "date": 1758102862400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-        <div className=' ml-6 mt-24'>\n+        <div className=' ml-6 mt-96'>\n           <form className=\"h-96 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n"
+                },
+                {
+                    "date": 1758102872170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,10 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full\">\n-        <div className=' ml-6 mt-96'>\n-          <form className=\"h-96 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n+        <div className=' ml-6 '>\n+          <form className=\"h-96 mt-9 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n               placeholder=\"Name\"\n"
+                },
+                {
+                    "date": 1758102898779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n           </div>\n         </div>\n         \n         {/* Right side: Form */}\n-        <div className=\"lg:w-2/5 w-full\">\n-        <div className=' ml-6 '>\n+        <div className=\"lg:w-2/5 w-full \">\n+        <div className='  '>\n           <form className=\"h-96 mt-9 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n"
+                },
+                {
+                    "date": 1758102905357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full \">\n         <div className='  '>\n-          <form className=\"h-96 mt-9 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n+          <form className=\"h-96 mt-9 ml-9 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n               placeholder=\"Name\"\n"
+                },
+                {
+                    "date": 1758102911285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full \">\n         <div className='  '>\n-          <form className=\"h-96 mt-9 ml-9 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n+          <form className=\"h-96 mt-9 ml-8 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n               placeholder=\"Name\"\n"
+                },
+                {
+                    "date": 1758102919558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full \">\n         <div className='  '>\n-          <form className=\"h-96 mt-9 ml-8 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n+          <form className=\"h-96 mt-9 ml-6 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n               placeholder=\"Name\"\n"
+                },
+                {
+                    "date": 1758102943793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n           </div>\n         </div>\n         \n         {/* Right side: Form */}\n-        <div className=\"lg:w-2/5 w-full \">\n+        <div className=\"lg:w-2/5 w-full  ml-20\">\n         <div className='  '>\n           <form className=\"h-96 mt-9 ml-6 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n"
+                },
+                {
+                    "date": 1758102949352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n           </div>\n         </div>\n         \n         {/* Right side: Form */}\n-        <div className=\"lg:w-2/5 w-full  ml-20\">\n+        <div className=\"lg:w-2/5 w-full  ml-32\">\n         <div className='  '>\n           <form className=\"h-96 mt-9 ml-6 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n"
+                },
+                {
+                    "date": 1758102966890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n           </div>\n         </div>\n         \n         {/* Right side: Form */}\n-        <div className=\"lg:w-2/5 w-full  ml-32\">\n+        <div className=\"lg:w-2/5 w-full  items-end\">\n         <div className='  '>\n           <form className=\"h-96 mt-9 ml-6 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n"
+                },
+                {
+                    "date": 1758102975104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n           </div>\n         </div>\n         \n         {/* Right side: Form */}\n-        <div className=\"lg:w-2/5 w-full  items-end\">\n+        <div className=\"lg:w-2/5 w-full  items-left\">\n         <div className='  '>\n           <form className=\"h-96 mt-9 ml-6 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n"
+                },
+                {
+                    "date": 1758102999813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n           </div>\n         </div>\n         \n         {/* Right side: Form */}\n-        <div className=\"lg:w-2/5 w-full  items-left\">\n+        <div className=\"lg:w-2/5 w-full flex  \">\n         <div className='  '>\n           <form className=\"h-96 mt-9 ml-6 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n"
+                },
+                {
+                    "date": 1758103015177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full flex  \">\n-        <div className='  '>\n+        <div className='  items-right '>\n           <form className=\"h-96 mt-9 ml-6 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n"
+                },
+                {
+                    "date": 1758103077221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,10 @@\n         </div>\n         \n         {/* Right side: Form */}\n         <div className=\"lg:w-2/5 w-full flex  \">\n-        <div className='  items-right '>\n+        \n+        <div className='  right '>\n           <form className=\"h-96 mt-9 ml-6 absolute bg-white rounded-xl shadow p-6 flex flex-col gap-4 mb-6\">\n             <input\n               type=\"text\"\n               name=\"name\"\n"
+                },
+                {
+                    "date": 1758103738768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,8 +66,11 @@\n </div>\n           <img src=\"/mobile.png\" alt=\"partner-hero\" className=\"rounded-xl \" />\n         </div>\n \n+\n+\n+\n       </div>\n     </section>\n   )\n }\n"
+                }
+            ],
+            "date": 1758096995893,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nconst Hero = () => {\n  return (\n    <div>Hero</div>\n  )\n}\n\nexport default Hero"
+        }
+    ]
+}

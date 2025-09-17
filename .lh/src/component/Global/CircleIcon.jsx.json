@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/component/Global/CircleIcon.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1758101726186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1758101726186,
+            "name": "Commit-0",
+            "content": "// CircleIcon.jsx\nimport React from \"react\";\n\n/**\n * Props:\n * - size (number): diameter in px (default 80)\n * - bg (string): circle color (default: '#ff6b6b' similar to your screenshot)\n * - children: icon element (SVG or react-icons)\n */\nconst CircleIcon = ({ size = 80, bg = \"#ff6161\", children }) => {\n  return (\n    <div\n      style={{ width: size, height: size }}\n      className=\"rounded-full flex items-center justify-center shadow-md\"\n    >\n      {/* outer circle */}\n      <div\n        style={{\n          width: \"100%\",\n          height: \"100%\",\n          borderRadius: \"9999px\",\n          background: bg,\n          display: \"flex\",\n          alignItems: \"center\",\n          justifyContent: \"center\",\n        }}\n      >\n        {/* inner white-line icon placeholder; pass an SVG or react-icon as children */}\n        <div style={{ color: \"white\" }} className=\"flex items-center justify-center\">\n          {children}\n        </div>\n      </div>\n    </div>\n  );\n};\n\nexport default CircleIcon;\n"
+        }
+    ]
+}

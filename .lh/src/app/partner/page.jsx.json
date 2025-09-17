@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/app/partner/page.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1758096119283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1758097296512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,12 @@\n+import Hero from '@/component/partner/Hero'\n import React from 'react'\n \n const page = () => {\n   return (\n-    <div>page</div>\n+    <div>\n+        <Hero/>\n+    </div>\n   )\n }\n \n export default page\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1758098505907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,13 @@\n import Hero from '@/component/partner/Hero'\n+import HeroCurve from '@/component/partner/HeroCurve'\n import React from 'react'\n \n const page = () => {\n   return (\n     <div>\n         <Hero/>\n+        <HeroCurve/>\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1758098741384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+import FeaturesSection from '@/component/Home/FeatureSection'\n import Hero from '@/component/partner/Hero'\n import HeroCurve from '@/component/partner/HeroCurve'\n import React from 'react'\n \n@@ -6,8 +7,9 @@\n   return (\n     <div>\n         <Hero/>\n         <HeroCurve/>\n+        <FeaturesSection/>\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1758098864795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import FeaturesSection from '@/component/Home/FeatureSection'\n+import FeaturesSection from '@/component/partner/FeaturesSection'\n import Hero from '@/component/partner/Hero'\n import HeroCurve from '@/component/partner/HeroCurve'\n import React from 'react'\n \n@@ -8,8 +8,9 @@\n     <div>\n         <Hero/>\n         <HeroCurve/>\n         <FeaturesSection/>\n+\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1758099129248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,17 @@\n import FeaturesSection from '@/component/partner/FeaturesSection'\n import Hero from '@/component/partner/Hero'\n import HeroCurve from '@/component/partner/HeroCurve'\n+import StatsSection from '@/component/partner/StasSection'\n import React from 'react'\n \n const page = () => {\n   return (\n     <div>\n         <Hero/>\n         <HeroCurve/>\n         <FeaturesSection/>\n+        <StatsSection/>\n \n     </div>\n   )\n }\n"
+                },
+                {
+                    "date": 1758101679290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+import FamilyMatrix from '@/component/partner/FamilyMatrix'\n import FeaturesSection from '@/component/partner/FeaturesSection'\n import Hero from '@/component/partner/Hero'\n import HeroCurve from '@/component/partner/HeroCurve'\n import StatsSection from '@/component/partner/StasSection'\n@@ -10,8 +11,9 @@\n         <Hero/>\n         <HeroCurve/>\n         <FeaturesSection/>\n         <StatsSection/>\n+        <FamilyMatrix/>\n \n     </div>\n   )\n }\n"
+                }
+            ],
+            "date": 1758096119283,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nconst page = () => {\n  return (\n    <div>page</div>\n  )\n}\n\nexport default page"
+        }
+    ]
+}

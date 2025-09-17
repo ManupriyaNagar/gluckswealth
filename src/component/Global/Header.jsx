@@ -75,7 +75,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-4">
             <Link
-              href="/login"
+              href="https://gluckswealth.com/client.php"
               className="bg-gradient-to-r from-[#18aadd] to-[#6aa962] text-white font-semibold px-3 py-1 rounded-full text-sm hover:opacity-90 transition"
             >
               Login
@@ -90,7 +90,7 @@ export default function Header() {
 
           {/* Desktop Login/Register Button */}
           <Link
-            href="/login"
+            href="https://gluckswealth.com/client.php"
             className="hidden md:block bg-gradient-to-r from-[#18aadd] to-[#6aa962] text-white border-white border-1 font-semibold px-5 py-2 rounded-full shadow hover:opacity-90 transition"
           >
             Login/Register

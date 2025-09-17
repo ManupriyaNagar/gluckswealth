@@ -1,0 +1,58 @@
+{
+    "sourceFile": "src/component/partner/FeaturesSection.JSX",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1758098713658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1758098732979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,62 @@\n-import React from 'react'\n+import React from \"react\";\n+import { FaLayerGroup, FaFileInvoice, FaChartPie, FaBell } from \"react-icons/fa\";\n+import { MdPayments, MdFamilyRestroom } from \"react-icons/md\";\n+import { RiUserAddLine } from \"react-icons/ri\";\n \n+const features = [\n+  {\n+    icon: <FaLayerGroup size={28} />,\n\\ No newline at end of file\n+    title: \"Multiple Products and Multiple Providers\",\n+  },\n+  {\n+    icon: <RiUserAddLine size={28} />,\n+    title: \"Online KYC, Onboarding and Transactions\",\n+  },\n+  {\n+    icon: <FaFileInvoice size={28} />,\n+    title: \"Create and Manage Customer Portfolios\",\n+  },\n+  {\n+    icon: <FaFileInvoice size={28} />,\n+    title: \"Download RTA Statements and Share them in Real-Time\",\n+  },\n+  {\n+    icon: <MdPayments size={28} />,\n+    title: \"Multiple Payment Options\",\n+  },\n+  {\n+    icon: <MdFamilyRestroom size={28} />,\n+    title: \"Family Reports\",\n+  },\n+  {\n+    icon: <FaChartPie size={28} />,\n+    title: \"Analytical Reports\",\n+  },\n+  {\n+    icon: <FaBell size={28} />,\n+    title: \"Alerts and Notifications\",\n+  },\n+];\n+\n const FeaturesSection = () => {\n   return (\n-    <div>FeaturesSection</div>\n-  )\n-}\n+    <section className=\"px-6 lg:px-20 py-16 bg-white\">\n+      <h2 className=\"text-3xl font-extrabold text-gray-900 text-center mb-12\">\n+        Features of Nivesh Online Mutual Funds Distribution Platform\n+      </h2>\n+      <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10\">\n+        {features.map((feature, index) => (\n+          <div key={index} className=\"flex flex-col items-center text-center\">\n+            {/* Red Circle with Icon */}\n+            <div className=\"w-16 h-16 rounded-full bg-red-500 flex items-center justify-center text-white mb-4 shadow-md\">\n+              {feature.icon}\n+            </div>\n+            <p className=\"text-lg font-medium text-gray-800\">{feature.title}</p>\n+          </div>\n+        ))}\n+      </div>\n+    </section>\n+  );\n+};\n \n-export default FeaturesSection\n+export default FeaturesSection;\n"
+                },
+                {
+                    "date": 1758098809473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,5 +58,5 @@\n     </section>\n   );\n };\n \n-export default FeaturesSection;\n\\ No newline at end of file\n+export default FeaturesSection;\n"
+                },
+                {
+                    "date": 1758098925585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n       <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10\">\n         {features.map((feature, index) => (\n           <div key={index} className=\"flex flex-col items-center text-center\">\n             {/* Red Circle with Icon */}\n-            <div className=\"w-16 h-16 rounded-full bg-red-500 flex items-center justify-center text-white mb-4 shadow-md\">\n+            <div className=\"w-16 h-16 rounded-full bg-green-500 flex items-center justify-center text-white mb-4 shadow-md\">\n               {feature.icon}\n             </div>\n             <p className=\"text-lg font-medium text-gray-800\">{feature.title}</p>\n           </div>\n"
+                },
+                {
+                    "date": 1758098994874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n const FeaturesSection = () => {\n   return (\n     <section className=\"px-6 lg:px-20 py-16 bg-white\">\n       <h2 className=\"text-3xl font-extrabold text-gray-900 text-center mb-12\">\n-        Features of Nivesh Online Mutual Funds Distribution Platform\n+        Features of Glucks Wealth Online Mutual Funds Distribution Platform\n       </h2>\n       <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10\">\n         {features.map((feature, index) => (\n           <div key={index} className=\"flex flex-col items-center text-center\">\n"
+                },
+                {
+                    "date": 1758103608911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n \n const FeaturesSection = () => {\n   return (\n     <section className=\"px-6 lg:px-20 py-16 bg-white\">\n-      <h2 className=\"text-3xl font-extrabold text-gray-900 text-center mb-12\">\n+      <h2 className=\"text-5xl font-extrabold text-gray-900 text-center mb-12\">\n         Features of Glucks Wealth Online Mutual Funds Distribution Platform\n       </h2>\n       <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10\">\n         {features.map((feature, index) => (\n"
+                },
+                {
+                    "date": 1758103629226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n \n const FeaturesSection = () => {\n   return (\n     <section className=\"px-6 lg:px-20 py-16 bg-white\">\n-      <h2 className=\"text-5xl font-extrabold text-gray-900 text-center mb-12\">\n+      <h2 className=\"text-4xl font-extrabold text-gray-900 text-center mb-12\">\n         Features of Glucks Wealth Online Mutual Funds Distribution Platform\n       </h2>\n       <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10\">\n         {features.map((feature, index) => (\n"
+                },
+                {
+                    "date": 1758103636424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n \n const FeaturesSection = () => {\n   return (\n     <section className=\"px-6 lg:px-20 py-16 bg-white\">\n-      <h2 className=\"text-4xl font-extrabold text-gray-900 text-center mb-12\">\n+      <h2 className=\"text-3xl font-extrabold text-gray-900 text-center mb-12\">\n         Features of Glucks Wealth Online Mutual Funds Distribution Platform\n       </h2>\n       <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10\">\n         {features.map((feature, index) => (\n"
+                },
+                {
+                    "date": 1758103650653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n \n const FeaturesSection = () => {\n   return (\n     <section className=\"px-6 lg:px-20 py-16 bg-white\">\n-      <h2 className=\"text-3xl font-extrabold text-gray-900 text-center mb-12\">\n+      <h2 className=\"text-4xl font-extrabold text-gray-900 text-center mb-12\">\n         Features of Glucks Wealth Online Mutual Funds Distribution Platform\n       </h2>\n       <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10\">\n         {features.map((feature, index) => (\n"
+                },
+                {
+                    "date": 1758103684271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n const FeaturesSection = () => {\n   return (\n     <section className=\"px-6 lg:px-20 py-16 bg-white\">\n       <h2 className=\"text-4xl font-extrabold text-gray-900 text-center mb-12\">\n-        Features of Glucks Wealth Online Mutual Funds Distribution Platform\n+        Features of Glucks Wealth Online Mutual <br/> Funds Distribution Platform\n       </h2>\n       <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10\">\n         {features.map((feature, index) => (\n           <div key={index} className=\"flex flex-col items-center text-center\">\n"
+                },
+                {
+                    "date": 1758103731175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n \n const FeaturesSection = () => {\n   return (\n     <section className=\"px-6 lg:px-20 py-16 bg-white\">\n-      <h2 className=\"text-4xl font-extrabold text-gray-900 text-center mb-12\">\n+      <h2 className=\"text-5xl font-extrabold text-gray-900 text-center mb-12 \">\n         Features of Glucks Wealth Online Mutual <br/> Funds Distribution Platform\n       </h2>\n       <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10\">\n         {features.map((feature, index) => (\n"
+                }
+            ],
+            "date": 1758098713658,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nconst FeaturesSection = () => {\n  return (\n    <div>FeaturesSection</div>\n  )\n}\n\nexport default FeaturesSection"
+        }
+    ]
+}

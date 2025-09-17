@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/component/partner/StasSection.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1758099115559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1758099167019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,14 +8,14 @@\n     label: \"Happy Clients\",\n   },\n   {\n     icon: <FaMoneyBillWave size={40} />,\n-    value: \"₹ 5,860 Cr.\",\n+    value: \"₹ 5,80 Cr.\",\n     label: \"Transaction Value\",\n   },\n   {\n     icon: <FaCalculator size={40} />,\n-    value: \"4,353,000\",\n+    value: \"4,353\",\n     label: \"Transaction Count\",\n   },\n ];\n \n"
+                }
+            ],
+            "date": 1758099115559,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\nimport { FaUsers, FaMoneyBillWave, FaCalculator } from \"react-icons/fa\";\n\nconst stats = [\n  {\n    icon: <FaUsers size={40} />,\n    value: \"55,380\",\n    label: \"Happy Clients\",\n  },\n  {\n    icon: <FaMoneyBillWave size={40} />,\n    value: \"₹ 5,860 Cr.\",\n    label: \"Transaction Value\",\n  },\n  {\n    icon: <FaCalculator size={40} />,\n    value: \"4,353,000\",\n    label: \"Transaction Count\",\n  },\n];\n\nconst StatsSection = () => {\n  return (\n    <section className=\"px-6 lg:px-20 py-10\">\n      <div className=\"bg-teal-700 text-white rounded-xl shadow-md py-10 px-6\">\n        <div className=\"grid grid-cols-1 md:grid-cols-3 gap-8 text-center\">\n          {stats.map((stat, index) => (\n            <div\n              key={index}\n              className=\"flex flex-col items-center justify-center space-y-3\"\n            >\n              <div className=\"text-white\">{stat.icon}</div>\n              <h3 className=\"text-3xl font-extrabold\">{stat.value}</h3>\n              <p className=\"text-lg font-medium\">{stat.label}</p>\n            </div>\n          ))}\n        </div>\n      </div>\n    </section>\n  );\n};\n\nexport default StatsSection;\n"
+        }
+    ]
+}
